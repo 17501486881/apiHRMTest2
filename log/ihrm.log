@@ -1,0 +1,8 @@
+2020-01-06 16:17:41,191 INFO [root] [__init__.py(<module>:9)] - TEST日志器能不能正常工作
+2020-01-06 16:17:41,573 INFO [root] [login.py(test_login:32)] - 登陆成功接口返回的数据为：{'code': 10000, 'success': True, 'message': '操作成功！', 'data': '3aea5138-f416-4fb9-9032-9fb1f1e7e83d'}
+2020-01-06 16:17:41,574 INFO [root] [login.py(test_login:38)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 3aea5138-f416-4fb9-9032-9fb1f1e7e83d'}
+2020-01-06 16:17:41,650 INFO [root] [test_emp.py(test01_add_emp:36)] - 添加员工接口返回数据为：{'code': 10000, 'success': True, 'message': '操作成功！', 'data': {'id': '1214098703425818624'}}
+2020-01-06 16:17:41,650 INFO [root] [test_emp.py(test01_add_emp:39)] - 员工ID为：1214098703425818624
+2020-01-06 16:17:41,722 INFO [root] [test_emp.py(test02_query_emp:50)] - 查询员工接口的返回数据为：{'code': 10000, 'success': True, 'message': '操作成功！', 'data': {'roleIds': [], 'staffPhoto': None, 'username': '小小123', 'id': '1214098703425818624', 'formOfEmployment': 1, 'inServiceStatus': None, 'createTime': None, 'workNumber': '1234', 'companyName': '传智播客', 'formOfManagement': None, 'departmentId': '1210411411066695680', 'mobile': '13658479512', 'timeOfEntry': '2019-12-02T00:00:00.000+0000', 'enableState': 1, 'password': '1cbb9a31f90f956adce724f5ed7d83e1', 'correctionTime': '2019-12-15T16:00:00.000+0000', 'workingCity': None, 'companyId': '1', 'departmentName': '测试'}}
+2020-01-06 16:17:41,798 INFO [root] [test_emp.py(test03_modify_emp:61)] - 修改员工接口的返回数据为：{'code': 10000, 'success': True, 'message': '操作成功！', 'data': {'id': '1214098703425818624'}}
+2020-01-06 16:17:42,048 INFO [root] [test_emp.py(test04_delete_emp:93)] - 删除员工接口的返回数据为：{'code': 10000, 'success': True, 'message': '操作成功！', 'data': None}

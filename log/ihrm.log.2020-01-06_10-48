@@ -1,0 +1,8 @@
+2020-01-06 10:48:04,257 INFO [root] [__init__.py(<module>:9)] - TEST日志器能不能正常工作
+2020-01-06 10:48:04,519 INFO [root] [login.py(test_login:32)] - 登陆成功接口返回的数据为：{'data': '719a1621-5927-44ff-9276-92798c98ef50', 'code': 10000, 'success': True, 'message': '操作成功！'}
+2020-01-06 10:48:04,520 INFO [root] [login.py(test_login:38)] - 保存的令牌是：{'Content-Type': 'application/json', 'Authorization': 'Bearer 719a1621-5927-44ff-9276-92798c98ef50'}
+2020-01-06 10:48:04,593 INFO [root] [test_emp.py(test02_query_emp:45)] - 查询员工接口的返回数据为：{'data': None, 'code': 99999, 'success': False, 'message': '抱歉，系统繁忙，请稍后重试！'}
+2020-01-06 10:48:04,669 INFO [root] [test_emp.py(test03_modify_emp:55)] - 修改员工接口的返回数据为：{'data': None, 'code': 99999, 'success': False, 'message': '抱歉，系统繁忙，请稍后重试！'}
+2020-01-06 10:48:04,745 INFO [root] [test_emp.py(test04_delete_emp:65)] - 删除员工接口的返回数据为：{'data': None, 'code': 99999, 'success': False, 'message': '抱歉，系统繁忙，请稍后重试！'}
+2020-01-06 10:48:04,826 INFO [root] [test_emp.py(test_add_emp:31)] - 添加员工接口返回数据为：{'data': {'id': '1214015752965017600'}, 'code': 10000, 'success': True, 'message': '操作成功！'}
+2020-01-06 10:48:04,827 INFO [root] [test_emp.py(test_add_emp:37)] - 员工ID为：1214015752965017600
